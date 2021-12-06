@@ -1,0 +1,19 @@
+@import '../Sass/Variables.scss';
+
+.banner {
+  background-color: $colorBanner;
+  padding: 0.5rem 2rem;
+  color: $colorWhite;
+  text-align: center;
+  font-weight: $fontLight;
+
+  span {
+    margin-left: 1rem;
+
+    a {
+      &:hover {
+        text-transform: underline;
+      }
+    }
+  }
+}
