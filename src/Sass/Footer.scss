@@ -1,0 +1,52 @@
+@import './Variables.scss';
+
+
+.footer {
+  background-color: $colorFooter;
+  color: $colorWhite;
+  padding: 4rem 2rem;
+
+  img {
+    width: 15rem;
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    font-weight: $fontRegular;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    font-weight: $fontLight;
+    color: $colorWhite;
+
+    &:hover {
+      color: $colorAccent;
+    }
+  }
+}
+
+
+.container-logo {
+  margin-bottom: 2rem;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 1rem;
+  }
+}
+
+
+.container-links {
+  margin-bottom: 0.5rem;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 1rem;
+  }
+
+  @media screen and (min-width: 1366px) {
+    margin-top: 1rem;
+  }
+}

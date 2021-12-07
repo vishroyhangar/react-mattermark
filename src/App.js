@@ -1,5 +1,6 @@
 import Banner from './Components/Banner';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Banner />
 
       <Header />
+
+      <Footer />
     </div>
   );
 }

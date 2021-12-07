@@ -2,12 +2,32 @@
 
 .banner {
   background-color: $colorBanner;
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 0.5rem;
   color: $colorWhite;
   text-align: center;
   font-weight: $fontLight;
 
+  @media screen and (min-width: 768px) {
+    padding: 0.8rem 1rem;
+  }
+
+  @media screen and (min-width: 1366px) {
+    padding: 0.8rem 2rem;
+  }
+
+  
+
   p {
+    font-size: 0.8rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 0.7rem;
+    }
+
+    @media screen and (min-width: 1366px) {
+      font-size: 1.1rem;
+    }
+
     span {
       margin-left: 1rem;
 
