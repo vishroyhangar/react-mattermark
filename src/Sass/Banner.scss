@@ -7,12 +7,16 @@
   text-align: center;
   font-weight: $fontLight;
 
-  span {
-    margin-left: 1rem;
+  p {
+    span {
+      margin-left: 1rem;
 
-    a {
-      &:hover {
-        text-transform: underline;
+      a {
+        color: $colorWhite;
+
+        &:hover {
+          text-transform: underline;
+        }
       }
     }
   }
