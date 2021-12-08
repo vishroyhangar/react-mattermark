@@ -8,7 +8,7 @@ body {
 
 
 section {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 
   @media screen and (min-width: 768px) {
     padding: 4rem 2rem;
@@ -41,5 +41,15 @@ a {
   &:hover {
     background-color: $colorBtnHover;
     border-color: $colorBtnHover;
+  }
+}
+
+.btn-success {
+  background-color: $colorBtnGreen;
+  border-color: $colorBtnGreen;
+
+  &:hover {
+    background-color: $colorBtnGreenHover;
+    border-color: $colorBtnGreenHover;
   }
 }

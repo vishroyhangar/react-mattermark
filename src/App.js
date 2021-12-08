@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import SectionIntro from './Components/Section/SectionIntro';
 import SectionLogo from './Components/Section/SectionLogo';
+import SectionOutro from './Components/Section/SectionOutro';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <SectionIntro />
 
       <SectionLogo />
+
+      <SectionOutro />
 
       <Footer />
     </div>
