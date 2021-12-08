@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="container-links col-xs-6 col-sm-3 col-md-3 col-lg-2 mb-10">
             <h5>Company</h5>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li><a href="/lists/">Lists</a></li>
               <li><a href="/newsletters/">Newsletters</a></li>
               <li><a href="/webinars/">Webinars</a></li>

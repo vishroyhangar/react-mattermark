@@ -11,8 +11,8 @@ const Header = () => {
               <img src="https://d1mfvzd5g3mg00.cloudfront.net/dist/images/logo-cyan-light-bg.png" alt="nav-logo" />
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mm-menu" aria-controls="mm-menu" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon material-icons">menu</span>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mm-menu" aria-controls="mm-menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon material-icons">menu</span>
             </button>
           </div>
 
