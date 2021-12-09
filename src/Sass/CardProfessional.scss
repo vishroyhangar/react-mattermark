@@ -1,0 +1,79 @@
+@import './Variables.scss';
+
+figure {
+  height: 175px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    height: 150px;
+  }
+
+  @media screen and (min-width: 1366px) {
+    height: 175px;
+  }
+
+  &:hover {
+    img {
+      opacity: .4;
+    }
+  }
+
+  img {
+    width: 100%;
+    transition: all 0.6s ease;
+
+    @media screen and (min-width: 768px) {
+      width: 110%;
+    }
+
+    @media screen and (min-width: 1366px) {
+      width: 100%;
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover {
+      cursor: pointer;
+
+      h5 {
+        transform: translateY(0);
+      }
+
+      p {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    h5 {
+      font-weight: $fontBold;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: all 0.6s ease;
+      transform: translateY(100%);
+
+      @media screen and (min-width: 1366px) {
+        font-size: 1.3rem;
+      }
+    }
+
+    p {
+      font-size: 0.8rem;
+      transform: scale(0);
+      transition: all 0.6s ease;
+    }
+  }
+}

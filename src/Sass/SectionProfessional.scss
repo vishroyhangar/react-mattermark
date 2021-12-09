@@ -1,0 +1,19 @@
+@import './Variables.scss';
+
+.sect-professional {
+  text-align: center;
+  background-color: $colorBackgroundLight;
+
+  h1 {
+    font-weight: $fontBold;
+    font-size: 1.8rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2.5rem;
+    }
+
+    @media screen and (min-width:1366px) {
+      font-size: 2.8rem;
+    }
+  }
+}

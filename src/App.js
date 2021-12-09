@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import SectionIntro from './Components/Section/SectionIntro';
 import SectionLogo from './Components/Section/SectionLogo';
 import SectionOutro from './Components/Section/SectionOutro';
+import SectionProfessional from './Components/Section/SectionProfessional';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
 
       <SectionLogo />
 
+      <SectionProfessional />
+      
       <SectionOutro />
 
       <Footer />
