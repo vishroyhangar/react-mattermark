@@ -26,12 +26,40 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-weight: $fontBold;
+  font-size: 1.8rem;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (min-width:1366px) {
+    font-size: 2.8rem;
+  }
+}
+
+
+p {
+  font-size: 0.9rem;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (min-width:1366px) {
+    font-size: 1.1rem;
+  }
+}
+
 
 a {
   text-decoration: none;
   font-weight: $fontBold;
   transition: all 0.4s ease;
 }
+
 
 
 .btn-primary {
@@ -52,4 +80,10 @@ a {
     background-color: $colorBtnGreenHover;
     border-color: $colorBtnGreenHover;
   }
+}
+
+
+
+.background-dark {
+  background-color: $colorBackgroundLight;
 }

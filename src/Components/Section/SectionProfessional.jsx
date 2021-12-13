@@ -30,7 +30,7 @@ const SectionProfessional = () => {
 
   
   return (
-    <section className="sect-professional">
+    <section className="sect-professional background-dark">
       <div className="container">
         <div className="row title-row">
           <div className="col-xs-12">
