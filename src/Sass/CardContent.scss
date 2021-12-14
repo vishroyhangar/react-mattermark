@@ -1,0 +1,28 @@
+@import './Variables.scss';
+
+.content {
+  justify-content: space-between;
+  padding: 3rem 0;
+
+  .column {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-weight: $fontBold;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    font-weight: $fontExtraLight;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    font-weight: $fontLight;
+    color: $colorAccent;
+  }
+}

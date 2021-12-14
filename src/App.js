@@ -6,6 +6,7 @@ import SectionLogo from './Components/Section/SectionLogo';
 import SectionOutro from './Components/Section/SectionOutro';
 import SectionProfessional from './Components/Section/SectionProfessional';
 import SectionData from './Components/Section/SectionData';
+import SectionContent from './Components/Section/SectionContent';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <SectionLogo />
 
       <SectionData />
+
+      <SectionContent />
 
       <SectionProfessional />
 
